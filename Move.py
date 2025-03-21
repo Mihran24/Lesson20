@@ -46,7 +46,7 @@ def main():
         screen.fill((0,0,0))
         pygame.draw.rect(screen, current_color,
                  (x , y, sprite_width, sprite_height))
-        pygame.display.flip()
+        pygame.display.update()
         clock.tick(90)
 
 pygame.quit()
